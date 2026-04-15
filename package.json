@@ -1,0 +1,23 @@
+{
+  "name": "hive-bounty-hunter",
+  "version": "1.0.0",
+  "description": "Super Soldier agent — discovers agents across the internet and offers onboarding bounties to join the Hive Civilization",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "hive-civilization",
+    "agent-discovery",
+    "bounty-management",
+    "onboarding",
+    "velocity-doctrine"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
